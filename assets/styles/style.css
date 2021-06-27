@@ -1,0 +1,82 @@
+body {
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: 0;
+}
+
+.shadow {
+    background: rgba(51, 51, 51, 1);
+    filter: drop-shadow(0px 4px 4px);
+    margin: 0;
+}
+
+#logo {
+    left: 0%;
+    right: 0%;
+    top: 5%;
+    margin-bottom: 5%;
+
+}
+
+#myHeader {
+    width: 920px;
+    height: 180px;
+    left: 312px;
+    top: 271px;
+    padding: 30px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 140%;
+    /* or 90px */
+    /* white */
+    color: #FFFFFF;
+}
+
+#myHeader:active {
+    color: fuchsia;
+}
+
+.menu {
+
+    width: 745px;
+    height: 24px;
+    left: 642px;
+    top: 49px;
+    padding: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    /* white */
+    color: #FFFFFF;
+}
+
+.menu:hover {
+    color: blueviolet;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+
+    width: 183px;
+    height: 44px;
+    left: 1657px;
+    top: 39px;
+    /* grad2 */
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50px;
+}
+
+.btn:hover {
+    color: rgb(110, 245, 83);
+    background: linear-gradient(135deg, orange, orange 60%, cyan);
+}
